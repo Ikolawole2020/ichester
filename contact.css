@@ -1,0 +1,175 @@
+header{
+    background-image: url(/images/hennie-stander-tUWfRQlJTeE-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    height: 220px;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: brightness(0.8); 
+    z-index: 1;
+    margin-bottom: 100px;
+}
+
+
+.header-card{
+    color: white;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.header-card a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #ce9f4d;
+}
+
+.contat-us {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+    gap: 40px;
+    background-color: #f9f9f9;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.contact-text {
+    margin-top: 100px;
+    flex: 1 1 300px;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #143d61;
+}
+
+.contact-text p {
+    font-size: 14px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.contact-text p i {
+    margin-right: 10px;
+    flex-shrink: 0;
+    transition: background-color 0.3s ease;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.contact-text p:hover i {
+    background-color: #143d61;
+    color: white;
+}
+
+.contact-text p span {
+    display: inline;
+}
+
+.contact-text h1 {
+    font-size: 70px;
+    margin: 10px 0;
+    font-weight: bolder;
+    font-family: algerian;
+}
+
+.contact-text i {
+    color: #68a063;
+    margin-right: 8px;
+}
+
+.contact-form {
+    flex: 1 1 300px;
+}
+
+.contact-form{
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.contact-form label {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #224e75;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: 'Roboto', Arial, sans-serif;
+    resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #68a063;
+    box-shadow: 0 0 5px rgba(104, 160, 99, 0.5);
+}
+.contact-text p i{
+    background-color: white;
+    border-radius: 100%;
+    padding: 20px;
+    color: rgb(39, 39, 74);
+    font-size: 20px;
+}
+
+
+
+.contact-form textarea{
+    height: 150px;
+    resize: vertical;
+}
+
+.contact-form span{
+    color: red;
+}
+
+.contact-form input::placeholder, textarea::placeholder{
+    padding: 10px;
+}
+
+.contact-form button {
+    background-color:  #143d61;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 180px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color:  #143d61ca;
+}
+
+.contact-form-icon{
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.contact-form-icon i{
+    margin-right: 50px;
+    color: rgba(31, 45, 42, 0.76);
+}
+

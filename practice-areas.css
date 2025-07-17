@@ -1,0 +1,51 @@
+header{
+    background-image: url(/images/inaki-del-olmo-NIJuEQw0RKg-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    /* height: 620px; */
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: brightness(0.7); 
+    z-index: 1;
+    margin-bottom: 100px;
+}
+
+.header-card{
+    color: white;
+    margin-left: 80px;
+    margin-top: 250px;
+}
+.header-card h1{
+    line-height: 5rem;
+}
+.header-card a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #ce9f4d;
+}
+
+.practice-areas{
+    padding: 30px 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.practice-area{
+    padding: 10px;
+    line-height: 20px;
+}
+.practice-area h3{
+    margin-bottom: 20px;
+}
+.practice-area details{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.practice-area summary{
+    margin-bottom: 20px;
+}

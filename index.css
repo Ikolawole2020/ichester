@@ -1,0 +1,286 @@
+header{
+    background-image: url(/images/pexels-peter-olexa-2214257-3875821.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    height: 620px;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: brightness(0.8); 
+    z-index: 1;
+}
+
+.header-card{
+    color: white;
+    margin-left: 80px;
+    margin-top: 250px;
+}
+.header-card h1{
+    line-height: 5rem;
+}
+.header-card a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #ce9f4d;
+}
+
+.header-text{
+    float: right;
+    color: white;
+    width: 500px;
+    position: absolute;
+    top: 0;
+    margin-top: 300px;
+    margin-left: 47%;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    background-color: #0c2c4a;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 4px 2px 2px #143d61;
+
+}
+
+
+
+.stats-section{
+    background-color:#143d61 ;
+    padding: 30px 120px;
+    margin-bottom: 100px;
+}
+.bg{
+    display: flex;
+    gap: 190px;
+}
+.bg h2{
+    font-size: 80px;
+    color: #9a845f;
+    font-weight: bolder;
+    letter-spacing: 0.5rem;
+}
+.bg p{
+    font-size: 12px;
+    color: white;
+}
+.plus{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.practice-area{
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    margin-bottom: 100px;
+}
+.card {
+    border: 1px solid rgba(31, 45, 42, 0.96);
+    width: 50px;
+    border-radius: 0;
+    padding: 5px;
+    margin: 0;
+    position: relative;
+    cursor: pointer;
+}
+.card-details{
+    width: 700px;
+}
+
+.card-details-text{
+    margin-top: 100px;
+    padding: 5px;
+}
+
+.card-details-text p{
+    margin-top: 20px;
+}
+
+.card-details-text a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #ce9f4d;
+}
+
+.details-img{
+    margin-left: 375px;
+}
+
+.details-img img{
+    width: 405px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    margin-top: 75.6%;
+}
+.card .card-title {
+    font-size: 18px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(360deg);
+    margin-top: 50px;
+    padding: 10px;
+}
+.card-four{
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-four-text{
+    margin-top: 100px;
+    width: 400px;
+}
+.card-four-text p{
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.card-four-text a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #ce9f4d;
+}
+
+.card-four-img img{
+    height: 400px;
+    width: 405px;
+}
+
+.practice-link{
+    position: absolute;
+    margin-top: 410px;
+    margin-right: 500px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #ce9f4d;
+}
+
+.leading-lawyers{
+    padding: 30px 100px;
+    background-color: #143d61;
+    margin-bottom: 100px;
+}
+.leading-lawyers-title{
+    display: flex;
+    flex-direction: row;
+}
+.leading-lawyers-title a{
+    position: absolute;
+    right: 0;
+    margin-right: 110px;
+}
+
+.lawyers{
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+}
+
+.lawyer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.lawyer img{
+    width: 250px;
+    height: 400px;
+}
+.lawyer-details{
+    background-color: white;
+    padding: 20px;
+    width: 223px;
+}
+
+.lawyer-details h2{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.vcard{
+    color: black;
+}
+
+.lawyer-details .title{
+    font-size: 12px;
+    color: #ce9f4d;
+    margin: 0;
+}
+
+.partners{
+    padding: 30px 100px;
+}
+
+.partners .title{
+    margin: 0;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.partners hr{
+   width: 72%;
+   height: 0px;
+   margin-top: 10px;
+   margin-left: 20px;
+
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    gap: 20px;
+
+}
+
+.navigation i{
+    background-color: #143d61;
+    border-radius: 100%;
+    width: 10px; 
+}
+
+.recognitions{
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.recognitions img{
+    width: 150px;
+    height: 150px;
+    
+}
+
+#contact{
+    padding: 30px 100px;
+    margin-bottom: 100px;
+}
+
+.contact-us{
+    background-color: #143d61;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px #0c2c4a ;
+}
+.contact-us p{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.contact-us a{
+    background-color:#6c757d;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
